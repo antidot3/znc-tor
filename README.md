@@ -3,7 +3,7 @@ Alpine Linux based docker image for ZNC with support for darknet services
 
 ## Prerequisites
 * Install docker
-* Move an existing ZNC config (usually $HOME/.znc/) to src/znc-data. This will be copied over to the image when built
+* Move an existing ZNC config dir (usually $HOME/.znc/) to src/znc-data. This will be copied over to the image when built
 
 ## Building
 * ```git clone https://github.com/antidot3/znc-tor.git ; cd znc-tor```
