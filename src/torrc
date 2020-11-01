@@ -1,0 +1,5 @@
+# freenode
+mapaddress 10.40.40.40 freenodeok2gncmy.onion
+
+# add more servers by mapping more addresses
+#mapaddress 10.40.40.41 example123.onion
