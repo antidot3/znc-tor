@@ -9,7 +9,5 @@ Move an existing ZNC config (usually $HOME/.znc/) to src/znc-data. This will be 
 * ```make```
 
 ## Running container
-```
-docker run -d -p 8080:8080 --name znc-tor antid0t3/znc-tor
-```
+* ```docker run -d -p 8080:8080 --name znc-tor antid0t3/znc-tor```
 This will run ZNC on port 8080 of your host machine
