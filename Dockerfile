@@ -12,5 +12,5 @@ ADD         src/entrypoint.sh /
 RUN         chmod +x /entrypoint.sh
 ADD         src/znc-data/ /znc-data/
 
-EXPOSE      6697
+EXPOSE      8080
 ENTRYPOINT  ["/entrypoint.sh"]
