@@ -16,7 +16,7 @@ Alpine Linux based docker image for ZNC with support for darknet services
 This will run ZNC on port 8080 of your host machine
 
 ## Other info
-When you try to connect to your new ZNC server from your IRC client you might get an error saying something about invalid ssl fingerprint. This can easily be solved by running this command in your znc config directory where znc.pem is:
+When you try to connect to your new ZNC server from your IRC client you might get an error saying something about invalid ssl fingerprint. This can be fixed by running this command in your znc config directory where znc.pem is:
 * ```openssl x509 -sha1 -noout -fingerprint -in znc.pem | sed -e 's/^.*=//;s/://g;y/ABCDEF/abcdef/'```
 
 Add the output of this to your IRC client's ssl fingerprint setting for ZNC
